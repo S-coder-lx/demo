@@ -74,7 +74,7 @@
     padding: 10px 10px;
     width: 350px;
     outline: none;
-    color: white;
+    color: #000;
     border-radius: 6px;
     transition: 0.25s;
 }
