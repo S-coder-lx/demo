@@ -9,8 +9,8 @@ import { ForgotComponent } from './forgot/forgot.component';
 
 const routes: Routes = [
   {path:"login" ,component: LogInComponent},
-  {path:"forgot",component:ForgotComponent}
-  // { path: '', redirectTo: '/login', pathMatch: 'full' }
+  {path:"forgot",component:ForgotComponent},
+  { path: '', redirectTo: '/login', pathMatch: 'full' }
 ]
 
 @NgModule({
